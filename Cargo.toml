@@ -1,0 +1,8 @@
+[package]
+name = "ad64"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.21"
+ethers = { version = "2.0", features = ["rustls"] }
